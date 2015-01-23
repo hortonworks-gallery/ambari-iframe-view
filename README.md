@@ -13,7 +13,7 @@ Embed any webapp or webpage into Ambari
 - Tableau visualization in Ambari
 ![Image](../master/screenshots/Embedded-Tableau.png?raw=true)
 
-- JQuery webapp calling making REST calls (in this case to Youtube)
+- JQuery webapp calling making REST calls (in this case to Youtube) in Ambari
 ![Image](../master/screenshots/jQuery.png?raw=true)
 	
 ##### Steps
