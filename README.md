@@ -1,7 +1,21 @@
 #### iFrame embedded in Ambari view
-Embed any webpage in Ambari
+Embed any webapp or webpage into Ambari
 
+	
+##### Screenshots
 
+- Ranger audits in Ambari
+![Image](../master/screenshots/Embedded-Ranger.png?raw=true)
+
+- Beeswax query in Ambari
+![Image](../master/screenshots/Embedded-Hue.png?raw=true)
+
+- Tableau visualization in Ambari
+![Image](../master/screenshots/Embedded-Tableau.png?raw=true)
+
+- JQuery webapp calling making REST calls (in this case to Youtube)
+![Image](../master/screenshots/jQuery.png?raw=true)
+	
 ##### Steps
 
 - Download HDP 2.2 sandbox VM image (Sandbox_HDP_2.2_VMware.ova) from [Hortonworks website](http://hortonworks.com/products/hortonworks-sandbox/)
@@ -61,6 +75,9 @@ service ambari restart
 service ambari-server restart
 ```
 
+- Now open Ambari and navigate to the Views as shown below
+http://sandbox.hortonworks.com:8080
+![Image](../master/screenshots/Open-view.png?raw=true)
 
 - To point the iFrame to another website
 ```
