@@ -13,6 +13,9 @@ Embed any webapp or webpage into Ambari
 - Sandbox tutorials in Ambari
 ![Image](../master/screenshots/tutorials.png?raw=true)
 
+- phpLDAP UI in Ambari
+![Image](../master/screenshots/phpldap.png?raw=true)
+
 - Tableau visualization in Ambari
 ![Image](../master/screenshots/Embedded-Tableau.png?raw=true)
 
