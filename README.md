@@ -13,6 +13,10 @@ Embed any webapp or webpage into Ambari!
 - Sandbox tutorials in Ambari
 ![Image](../master/screenshots/tutorials.png?raw=true)
 
+- Remote desktop into your sandbox from within Ambari by combining with [VNC stack](https://github.com/abajwa-hw/vnc-stack):
+![Image](../master/screenshots/screenshot-VNC-view.png?raw=true)
+
+
 - phpLDAP UI in Ambari
 ![Image](../master/screenshots/phpldap.png?raw=true)
 
