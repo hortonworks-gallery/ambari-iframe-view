@@ -20,7 +20,7 @@ Embed any webapp or webpage into Ambari!
 ![Image](../master/screenshots/Embedded-Tableau.png?raw=true)
 
 - Other ideas:
-	- Create an Ambari view of your clients website/webapp in front of them to demonstrate ease of setup
+	- Create an Ambari view of customer website/webapp in front of them to demonstrate ease of setup
 	- Demonstrate integration with external webservices:
 	  JQuery webapp making external REST calls (in this case to Youtube) from within Ambari View
       ![Image](../master/screenshots/jQuery.png?raw=true)
