@@ -39,7 +39,7 @@ cd
 git clone https://github.com/abajwa-hw/iframe-view.git
 cd iframe-view
 
-#optional step: change the iframe to point to any website 
+#OPTIONAL STEP: change the iframe to point to any website you want
 vi src/main/resources/index.html
 
 #Add ambari jar
