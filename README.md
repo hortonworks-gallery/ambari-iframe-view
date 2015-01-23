@@ -19,9 +19,12 @@ Embed any webapp or webpage into Ambari
 - Tableau visualization in Ambari
 ![Image](../master/screenshots/Embedded-Tableau.png?raw=true)
 
-- JQuery webapp calling making REST calls (in this case to Youtube) in Ambari
-![Image](../master/screenshots/jQuery.png?raw=true)
-	
+- Other ideas
+	- Create an Ambari view of your clients website/webapp in front of them to demonstrate ease of setup
+	- Integrating with REST APIs:
+	  JQuery webapp calling making REST calls (in this case to Youtube) in Ambari
+      ![Image](../master/screenshots/jQuery.png?raw=true)
+		
 ##### Steps
 
 - Download HDP 2.2 sandbox VM image (Sandbox_HDP_2.2_VMware.ova) from [Hortonworks website](http://hortonworks.com/products/hortonworks-sandbox/)
