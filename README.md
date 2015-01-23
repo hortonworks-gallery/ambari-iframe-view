@@ -21,8 +21,8 @@ Embed any webapp or webpage into Ambari
 
 - Other ideas
 	- Create an Ambari view of your clients website/webapp in front of them to demonstrate ease of setup
-	- Integrating with REST APIs:
-	  JQuery webapp calling making REST calls (in this case to Youtube) in Ambari
+	- Demonstrate integration with external webservices:
+	  JQuery webapp calling making REST calls (in this case to Youtube) from within Ambari View
       ![Image](../master/screenshots/jQuery.png?raw=true)
 		
 ##### Steps
