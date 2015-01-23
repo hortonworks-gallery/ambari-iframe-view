@@ -1,5 +1,5 @@
 #### iFrame embedded in Ambari view
-Embed any webapp or webpage into Ambari
+Embed any webapp or webpage into Ambari!
 
 	
 ##### Screenshots
@@ -19,7 +19,7 @@ Embed any webapp or webpage into Ambari
 - Tableau visualization in Ambari
 ![Image](../master/screenshots/Embedded-Tableau.png?raw=true)
 
-- Other ideas
+- Other ideas:
 	- Create an Ambari view of your clients website/webapp in front of them to demonstrate ease of setup
 	- Demonstrate integration with external webservices:
 	  JQuery webapp making external REST calls (in this case to Youtube) from within Ambari View
