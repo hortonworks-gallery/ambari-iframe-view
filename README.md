@@ -10,6 +10,9 @@ Embed any webapp or webpage into Ambari
 - Beeswax query in Ambari
 ![Image](../master/screenshots/Embedded-Hue.png?raw=true)
 
+- Sandbox tutorials in Ambari
+![Image](../master/screenshots/tutorials.png?raw=true)
+
 - Tableau visualization in Ambari
 ![Image](../master/screenshots/Embedded-Tableau.png?raw=true)
 
