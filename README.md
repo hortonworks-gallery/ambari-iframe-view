@@ -75,7 +75,7 @@ service ambari restart
 service ambari-server restart
 ```
 
-- Now open Ambari and navigate to the Views as shown below
+- Now open Ambari and navigate to the Views as shown below and select 'iFrame View'
 http://sandbox.hortonworks.com:8080
 ![Image](../master/screenshots/Open-view.png?raw=true)
 
