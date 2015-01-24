@@ -65,7 +65,7 @@ cd
 git clone https://github.com/abajwa-hw/iframe-view.git
 cd iframe-view
 
-#OPTIONAL STEP: change the iframe to point to any website you want
+#OPTIONAL STEP: change the iframe to point to any website you want. The default is set to Ranger admin (sandbox:6080)
 vi src/main/resources/index.html
 
 #Tell maven to compile against ambari jar
