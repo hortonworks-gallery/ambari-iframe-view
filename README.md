@@ -60,7 +60,7 @@ export PATH=$PATH:$M2
 
 - To deploy the iFrame view, run below
 ```
-#Pull code
+#Pull code (pom.xml, view.xml, index.html)
 cd
 git clone https://github.com/abajwa-hw/iframe-view.git
 cd iframe-view
