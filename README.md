@@ -104,6 +104,12 @@ vi src/main/resources/view.xml
 
 mvn clean package
 cp target/*.jar /var/lib/ambari-server/resources/views
+
+#Now restart Ambari 
+
+#on HDP 2.2 sandbox
 service ambari restart
+#on non-sandbox
+service ambari-server restart
 ```
 
