@@ -7,6 +7,9 @@ Embed any webapp or webpage into Ambari!
 - Remote desktop into your sandbox from within Ambari by combining the view with the [VNC stack](https://github.com/abajwa-hw/vnc-stack):
 ![Image](../master/screenshots/screenshot-VNC-view.png?raw=true)
 
+  - ...and run Ambari to create an Ambari Droste effect!
+  ![Image](../master/screenshots/resursive-ambari.png?raw=true)
+
 - Ranger audits in Ambari
 ![Image](../master/screenshots/Embedded-Ranger.png?raw=true)
 
