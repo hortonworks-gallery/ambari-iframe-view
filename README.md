@@ -64,7 +64,7 @@ export M2=$M2_HOME/bin
 export PATH=$PATH:$M2
 ```
 
-- To deploy the iFrame view, run below
+- To deploy the iFrame view, run below. On non-sandbox env, these steps should be run on node running Ambari server
 ```
 #Pull code (pom.xml, view.xml, index.html)
 cd
@@ -74,7 +74,7 @@ cd iframe-view
 #OPTIONAL STEP: change the iframe to point to any website you want. The default is set to Ranger admin (sandbox:6080)
 vi src/main/resources/index.html
 
-#Tell maven to compile against ambari jar
+#Tell maven to compile against ambari jar (double check that the jar exists in this location, first)
 mvn install:install-file -Dfile=/usr/lib/ambari-server/ambari-views-1.7.0.169.jar -DgroupId=org.apache.ambari -DartifactId=ambari-views -Dversion=1.3.0-SNAPSHOT -Dpackaging=jar
 
 #Compile view
