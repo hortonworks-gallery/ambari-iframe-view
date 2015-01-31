@@ -16,6 +16,9 @@ Embed any webapp or webpage into Ambari!
 - Beeswax query in Ambari
 ![Image](../master/screenshots/Embedded-Hue.png?raw=true)
 
+- iPython Notebook in Ambari - see (here)[https://github.com/abajwa-hw/hdp-datascience-demo#ipython-notebook-embedded-in-ambari-view] for additional instructions
+![Image](../master/screenshots/Embedded-iPython.png?raw=true)
+
 - Document crawler in Ambari 
 ![Image](../master/screenshots/document-crawler.png?raw=true)
 
