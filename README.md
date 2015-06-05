@@ -51,17 +51,8 @@ ssh root@sandbox.hortonworks.com
 
 - Install Maven
 ```
-mkdir /usr/share/maven
-cd /usr/share/maven
-wget http://mirrors.koehn.com/apache/maven/maven-3/3.2.5/binaries/apache-maven-3.2.5-bin.tar.gz
-tar xvzf apache-maven-3.2.5-bin.tar.gz
-ln -s /usr/share/maven/apache-maven-3.2.5/ /usr/share/maven/latest
-echo 'M2_HOME=/usr/share/maven/latest' >> ~/.bashrc
-echo 'M2=$M2_HOME/bin' >> ~/.bashrc
-echo 'PATH=$PATH:$M2' >> ~/.bashrc
-export M2_HOME=/usr/share/maven/latest
-export M2=$M2_HOME/bin
-export PATH=$PATH:$M2
+curl -o /etc/yum.repos.d/epel-apache-maven.repo https://repos.fedorapeople.org/repos/dchen/apache-maven/epel-apache-maven.repo
+yum -y install apache-maven
 ```
 
 - To deploy the iFrame view, run below. On non-sandbox env, these steps should be run on node running Ambari server
@@ -74,8 +65,9 @@ cd iframe-view
 #OPTIONAL STEP: change the iframe to point to any website you want. The default is set to Ranger admin (sandbox:6080)
 vi src/main/resources/index.html
 
-#No longer needed - Tell maven to compile against ambari jar (double check that the jar exists in this location, first)
-#mvn install:install-file -Dfile=/usr/lib/ambari-server/ambari-views-1.7.0.169.jar -DgroupId=org.apache.ambari -DartifactId=ambari-views -Dversion=1.3.0-SNAPSHOT -Dpackaging=jar
+#OPTIONAL STEP: change the view label that will display in Ambari, or the internal view name. The default is "iFrame View"
+vi src/main/resources/view.xml
+
 
 #Compile view
 mvn clean package
