@@ -1,6 +1,10 @@
 #### iFrame embedded in Ambari view
 Embed any webapp or webpage into Ambari!
 
+Author: [Ali Bajwa](https://www.linkedin.com/in/aliabajwa)
+
+-----------------
+		
 	
 ##### Screenshots
 
@@ -34,7 +38,7 @@ Embed any webapp or webpage into Ambari!
 	  JQuery webapp making external REST calls (in this case to Youtube) from within Ambari View
       ![Image](../master/screenshots/jQuery.png?raw=true)
 		
-##### Steps
+##### Setup
 
 - Download HDP 2.2 sandbox VM image (Sandbox_HDP_2.2_VMware.ova) from [Hortonworks website](http://hortonworks.com/products/hortonworks-sandbox/)
 - Import Sandbox_HDP_2.2_VMware.ova into VMWare and set the VM memory size to 8GB
